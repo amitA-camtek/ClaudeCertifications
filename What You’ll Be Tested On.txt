@@ -1,0 +1,18 @@
+60 questions across five core competency areas
+
+●
+Agentic Architecture & Orchestration27%
+Design agentic loops, orchestrate multi-agent systems with coordinator-subagent patterns, implement task decomposition, and manage session state and workflow enforcement.
+●
+Tool Design & MCP Integration18%
+Design effective tool interfaces with clear boundaries, implement structured error responses, integrate MCP servers, and distribute tools appropriately across agents.
+●
+Claude Code Configuration & Workflows20%
+Configure CLAUDE.md hierarchies, create custom slash commands, apply path-specific rules, know when to use plan mode, and integrate into CI/CD pipelines.
+●
+Prompt Engineering & Structured Output20%
+Design prompts with explicit criteria, apply few-shot techniques, enforce structured output with JSON schemas, and implement validation and retry loops.
+●
+Context Management & Reliability15%
+Preserve critical information across long interactions, design escalation patterns, manage error propagation in multi-agent systems, and handle uncertainty with confidence calibration.
+
