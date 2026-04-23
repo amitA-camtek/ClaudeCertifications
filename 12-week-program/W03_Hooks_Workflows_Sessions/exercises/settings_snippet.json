@@ -1,0 +1,6 @@
+{
+  "$note": "W03 Build — placeholder hook-wiring snippet. Fill in per exercises/build.md step 4, then paste inside your real .claude/settings.json.",
+  "hooks": {
+    "PreToolUse": []
+  }
+}

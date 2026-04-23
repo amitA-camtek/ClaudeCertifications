@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W09 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1 — long-session degradation (attention fade, retrieval drift, reasoning drift); scratchpad files as durable state (survives `/compact` and crashes) |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §1 (mitigations B & C), §2 — `/compact` as lossy compression (pair with scratchpad), subagent delegation as context-management tool, crash-recovery manifests (step index + scratchpad, resume by `step_index + 1`) |
-| 1:40–2:20 | Theory+Sketch | Read [reference.md](reference.md) §6–7 — aggregate-accuracy trap; stratified sampling by (document_type × field × confidence bucket); source characterization (primary vs derivative, dates, credibility) |
+| 1:40–2:20 | Build | Read [reference.md](reference.md) §6–7 — aggregate-accuracy trap; stratified sampling by (document_type × field × confidence bucket); source characterization (primary vs derivative, dates, credibility) — then follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)

@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W02 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §2–4, §6 — PreToolUse vs PostToolUse, hook script interface (stdin/stdout JSON, `decision: block/approve`), wiring in `settings.json`, PostToolUse shaping |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §1, §5, §10 — deterministic (hooks/`tool_choice`/`allowedTools`) vs probabilistic (prompt rules); canonical refund-gate scenario |
-| 1:40–2:20 | Build | Hook that blocks refunds > $500 and redirects to escalation |
+| 1:40–2:20 | Build | Hook that blocks refunds > $500 and redirects to escalation — follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)
@@ -25,6 +25,10 @@
 | 2:20–2:30 | Weak spots | Update `notes/weak_spots.md` |
 
 **Deliverables:** working refund-blocking hook in `exercises/`, test-3 review, updated weak spots.
+
+## Placeholder note — `.claude/settings.json`
+
+The hook-wiring placeholder is provided as [exercises/settings_snippet.json](exercises/settings_snippet.json) inside the week folder — it is **not** a real `.claude/settings.json`. When you want to test the hook end-to-end in Claude Code, copy the contents of your completed `settings_snippet.json` into your project's actual `.claude/settings.json` at the project root.
 
 ## Validation prompt
 

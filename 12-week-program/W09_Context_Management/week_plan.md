@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W08 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–3 — long-session failure modes (context bloat, summarization loss, lost-in-the-middle); bigger window does NOT fix attention quality |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §2–4 — persistent `case_facts` block (IDs / amounts / dates / agreed actions), position-aware ordering (start + end, section headers), trimming verbose tool output at the boundary |
-| 1:40–2:20 | Theory+Sketch | Read [reference.md](reference.md) §5–7 — valid escalation triggers (explicit request, policy gap, inability to progress); non-triggers (sentiment, self-rated confidence); multiple-match → ask for identifiers |
+| 1:40–2:20 | Build | Read [reference.md](reference.md) §5–7 — valid escalation triggers (explicit request, policy gap, inability to progress); non-triggers (sentiment, self-rated confidence); multiple-match → ask for identifiers — then follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)

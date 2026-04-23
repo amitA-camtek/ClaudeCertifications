@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W01 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–2 — why multi-agent, hub-and-spoke pattern, coordinator role, subagent context isolation |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3–4 — `Task` tool for subagent spawning, `allowedTools` must include `"Task"`, `AgentDefinition` fields |
-| 1:40–2:20 | Build | Coordinator + 2 subagents, explicit context passing |
+| 1:40–2:20 | Build | Coordinator + 2 subagents, explicit context passing — follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)

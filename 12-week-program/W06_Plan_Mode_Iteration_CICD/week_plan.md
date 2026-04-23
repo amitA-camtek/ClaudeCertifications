@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W05 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1 — plan mode vs direct execution decision criteria (single-file fix → direct; 45-file migration → plan); Explore subagent for verbose discovery |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §2 — iterative refinement: concrete references (file/function/behavior), TDD red/green/refactor, interview/clarifying-questions pattern |
-| 1:40–2:20 | Build | Read [reference.md](reference.md) §3–4 — headless CI (`-p`, `--output-format json`, `--json-schema`); generator and reviewer in **separate** fresh sessions |
+| 1:40–2:20 | Build | Read [reference.md](reference.md) §3–4 — headless CI (`-p`, `--output-format json`, `--json-schema`); generator and reviewer in **separate** fresh sessions — then follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)

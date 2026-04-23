@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W03 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–2 — descriptions are the selector; input/output formats, positive + negative boundaries; split vs consolidate for near-similar tools |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3 — structured errors (`isError`, `errorCategory`, `isRetryable`, `message`); retry branches on `isRetryable`, not string parsing |
-| 1:40–2:20 | Theory+Sketch | Read [reference.md](reference.md) §4–5 — 4–5 tools per agent max, scoped access per role, `tool_choice` modes; sketch tool set for sample agent |
+| 1:40–2:20 | Build | Read [reference.md](reference.md) §4–5 — 4–5 tools per agent max, scoped access per role, `tool_choice` modes — then follow [exercises/build.md](exercises/build.md) step by step to sketch the tool set |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)

@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W04 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–2 — three scopes (user / project / subdirectory), merge semantics, CLAUDE.md hierarchy and precedence, `/memory` for diagnostics |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3–4 — `@import` modular configs, `.claude/rules/*.md` with YAML `paths:` frontmatter for conditional loading |
-| 1:40–2:20 | Build | Read [reference.md](reference.md) §5–6 — `.claude/commands/` (user-invoked saved prompts) vs `.claude/skills/<name>/SKILL.md` (multi-step capability, `allowed-tools`, `context: fork`) |
+| 1:40–2:20 | Build | Read [reference.md](reference.md) §5–6 — `.claude/commands/` (user-invoked saved prompts) vs `.claude/skills/<name>/SKILL.md` (multi-step capability, `allowed-tools`, `context: fork`) — then follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)
@@ -24,6 +24,16 @@
 | 2:20–2:30 | Weak spots | Update `notes/weak_spots.md` |
 
 **Deliverables:** working skill + slash command in `exercises/`, test-5 review, updated weak spots.
+
+## Placeholder note — `.claude/commands/` and `.claude/skills/`
+
+The command + skill placeholders live under [exercises/.claude/](exercises/.claude/) inside the week folder — this subdirectory is **not** picked up by Claude Code (Claude Code only reads `.claude/` at the project root or `~/.claude/`). When you want to test your slash command and skill live, copy the folder contents into your project's real `.claude/`:
+
+```
+cp -r exercises/.claude/* <project-root>/.claude/
+```
+
+Keeping the practice copy inside the week folder means each week's experiments stay self-contained and don't collide with other weeks' skills.
 
 ## Validation prompt
 

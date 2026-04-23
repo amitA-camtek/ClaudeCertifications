@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Review W06 weak spots |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §2 — categorical criteria (explicit thresholds, feature checks) vs vague wording (`important`, `confident`); false-positive-impact framing |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3 — few-shot = 2–4 examples on ambiguous edge cases (not canonical ones), show reasoning, placement in system prompt vs message pairs |
-| 1:40–2:20 | Build | Read [reference.md](reference.md) §4 — `tool_use` + `input_schema` + forced `tool_choice` for structured output; schemas fix **syntax**, not semantics |
+| 1:40–2:20 | Build | Read [reference.md](reference.md) §4 — `tool_use` + `input_schema` + forced `tool_choice` for structured output; schemas fix **syntax**, not semantics — then follow [exercises/build.md](exercises/build.md) step by step |
 | 2:20–2:30 | Summary | 3-bullet recap → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)

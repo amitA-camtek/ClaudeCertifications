@@ -1,0 +1,7 @@
+{
+  "$note": "W06 Build — placeholder JSON Schema for the reviewer's output. Fill in per exercises/build.md step 2.",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {},
+  "required": []
+}
