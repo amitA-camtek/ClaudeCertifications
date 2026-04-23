@@ -25,3 +25,45 @@
 **Exam day follows immediately after this week.**
 
 **Deliverables:** Practice Exams 2 & 3 reviews in `practice_test/`, final cheatsheet in `notes/exam_day_cheatsheet.md`.
+
+---
+
+## Note-taking while you read → auto-harvest to `weak_spots.md`
+
+Capture weak spots without breaking reading flow. The flow:
+
+**1. During reading — dump rough bullets into a session scratch file.**
+
+Open (or create) `notes/session_YYYY-MM-DD.md` in a split pane. No format required — just free-form lines:
+
+```markdown
+- when does stop_reason=max_tokens happen vs end_turn?
+- fork_session vs --resume — fuzzy on the poisoned-context case
+- why can't Message Batches do multi-turn tool use?
+- TODO: re-do exercise step 3 after reading section 5
+- aha: PostToolUse is too late for gates — always PreToolUse
+```
+
+**2. End of session — run the slash command** from the repo root:
+
+```
+/harvest-scratch 12-week-program/W12_Final_Exam_Prep/notes/session_YYYY-MM-DD.md
+```
+
+**3. What it does automatically:**
+
+- Classifies every line as **weak-spot** / **insight** / **todo** / **skip**
+- Rewrites weak spots as exam flashcards (`**Q:** ... **A:** ...`) grounded in this week's `reference.md`
+- Deduplicates against existing `notes/weak_spots.md` (merges overlapping cards instead of piling up duplicates)
+- Appends new flashcards under a `## Harvested from session_YYYY-MM-DD` section
+- Appends todos under a `## Todos` section as `- [ ]` checkboxes
+- Asks you one clarifying question if a bullet is too vague to flashcard cleanly
+- Renames the scratch file to `session_YYYY-MM-DD_harvested.md` so you can tell it's been processed
+- Prints a one-line summary (e.g. "4 new flashcards, 2 merged, 1 todo")
+
+**4. Why this setup:**
+
+- Zero format friction while reading (just dump bullets).
+- `reference.md` and other study files stay clean — no inline annotations.
+- `weak_spots.md` grows as exam-ready flashcards, not raw thoughts — feeds W12 targeted review directly.
+- The slash command lives at `.claude/commands/harvest-scratch.md` at the repo root — inspect or tweak it there.
