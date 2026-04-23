@@ -10,7 +10,7 @@
 | 0:00–0:10 | Warmup | Scan [notes/weak_spots.md](notes/weak_spots.md) from W01–W10 |
 | 0:10–1:20 | Exercise | **Exercise 1 — Multi-Tool Agent with Escalation Logic** · Read [reference.md](reference.md) §2 (week mapping) · Work through [exercises/exercise_1_multi_tool_agent_with_escalation.py](exercises/exercise_1_multi_tool_agent_with_escalation.py) |
 | 1:20–2:20 | Exercise | **Exercise 2 — Claude Code Team Workflow Configuration** · Read [reference.md](reference.md) §3 · Work through [exercises/exercise_2_claude_code_team_workflow.md](exercises/exercise_2_claude_code_team_workflow.md) |
-| 2:20–2:30 | Summary | Notes on integration pain points → `notes/study_day.md` |
+| 2:20–2:30 | Summary | Notes on integration pain points → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)
 
