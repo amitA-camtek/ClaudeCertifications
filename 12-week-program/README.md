@@ -41,3 +41,11 @@ Source: [cilbus.txt](../cilbus.txt) (original 7-day/week program, compressed her
 | [W12](W12_Final_Exam_Prep/week_plan.md) | Final Exam Prep | All |
 
 Exam target: **720 / 1000** across 5 domains, 6 scenarios.
+
+## Cross-week references
+
+- [coverage_matrix.md](coverage_matrix.md) — every exam task statement mapped to the week/section that covers it. Use for spot-checks and targeted re-reads.
+- [spaced_repetition_schedule.md](spaced_repetition_schedule.md) — which prior weeks' `weak_spots.md` to revisit in each week's Warmup block (1 / 3 / 6 / 9-week expanding intervals).
+- [W11 operational_topics.md](W11_Integration_Hands_On/operational_topics.md) — cross-cutting topics: prompt caching, extended thinking, model selection, cost economics.
+- [W12 adjacent_concepts_drill.md](W12_Final_Exam_Prep/exercises/adjacent_concepts_drill.md) — discriminators for the "two plausible answers" traps.
+- [W12 anti_patterns_master_list.md](W12_Final_Exam_Prep/exercises/anti_patterns_master_list.md) — the exam distractor catalog, with "why tempting" framing for each trap.

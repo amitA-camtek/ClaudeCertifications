@@ -13,7 +13,7 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Review W01 weak spots |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W01 weak_spots](../W01_Agentic_Loops/notes/weak_spots.md) |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–2 — why multi-agent, hub-and-spoke pattern, coordinator role, subagent context isolation |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3–4 — `Task` tool for subagent spawning, `allowedTools` must include `"Task"`, `AgentDefinition` fields |
 | 1:40–2:20 | Build | Coordinator + 2 subagents, explicit context passing — follow [exercises/build.md](exercises/build.md) step by step |

@@ -13,7 +13,7 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Review W09 weak spots |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W09 weak_spots](../W09_Context_Management/notes/weak_spots.md), [W07 weak_spots](../W07_Prompt_Engineering_Structured_Output/notes/weak_spots.md), [W04 weak_spots](../W04_Tool_Design_MCP/notes/weak_spots.md), [W01 weak_spots](../W01_Agentic_Loops/notes/weak_spots.md) |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1 — long-session degradation (attention fade, retrieval drift, reasoning drift); scratchpad files as durable state (survives `/compact` and crashes) |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §1 (mitigations B & C), §2 — `/compact` as lossy compression (pair with scratchpad), subagent delegation as context-management tool, crash-recovery manifests (step index + scratchpad, resume by `step_index + 1`) |
 | 1:40–2:20 | Build | Read [reference.md](reference.md) §6–7 — aggregate-accuracy trap; stratified sampling by (document_type × field × confidence bucket); source characterization (primary vs derivative, dates, credibility) — then follow [exercises/build.md](exercises/build.md) step by step |

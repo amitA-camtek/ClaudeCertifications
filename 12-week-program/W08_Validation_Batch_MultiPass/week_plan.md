@@ -13,7 +13,7 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Review W07 weak spots |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W07 weak_spots](../W07_Prompt_Engineering_Structured_Output/notes/weak_spots.md), [W05 weak_spots](../W05_Claude_Code_Config/notes/weak_spots.md), [W02 weak_spots](../W02_Multi_Agent_Orchestration/notes/weak_spots.md) |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–2 — structure vs semantics split; validation-retry loop (append **specific** validator error + source + prior output, bounded to 2–3 attempts) |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3–4 — when retries can't help (absent source info); `detected_pattern` fields for pattern-aware early termination |
 | 1:40–2:20 | Build | Read [reference.md](reference.md) §5 — sync vs Message Batches (50% cheaper, up to 24 h, single-turn, `custom_id`); SLA-window scheduling — then follow [exercises/build.md](exercises/build.md) step by step |

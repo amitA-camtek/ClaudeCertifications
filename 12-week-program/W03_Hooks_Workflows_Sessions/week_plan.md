@@ -13,7 +13,7 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Review W02 weak spots |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W02 weak_spots](../W02_Multi_Agent_Orchestration/notes/weak_spots.md), [W01 weak_spots](../W01_Agentic_Loops/notes/weak_spots.md) |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §2–4, §6 — PreToolUse vs PostToolUse, hook script interface (stdin/stdout JSON, `decision: block/approve`), wiring in `settings.json`, PostToolUse shaping |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §1, §5, §10 — deterministic (hooks/`tool_choice`/`allowedTools`) vs probabilistic (prompt rules); canonical refund-gate scenario |
 | 1:40–2:20 | Build | Hook that blocks refunds > $500 and redirects to escalation — follow [exercises/build.md](exercises/build.md) step by step |

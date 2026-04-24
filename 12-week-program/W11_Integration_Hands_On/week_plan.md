@@ -13,19 +13,21 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Scan [notes/weak_spots.md](notes/weak_spots.md) from W01–W10 |
-| 0:10–1:20 | Exercise | **Exercise 1 — Multi-Tool Agent with Escalation Logic** · Read [reference.md](reference.md) §2 (week mapping) · Work through [exercises/exercise_1_multi_tool_agent_with_escalation.py](exercises/exercise_1_multi_tool_agent_with_escalation.py) |
-| 1:20–2:20 | Exercise | **Exercise 2 — Claude Code Team Workflow Configuration** · Read [reference.md](reference.md) §3 · Work through [exercises/exercise_2_claude_code_team_workflow.md](exercises/exercise_2_claude_code_team_workflow.md) |
-| 2:20–2:30 | Summary | Notes on integration pain points → [notes/study_day.md](notes/study_day.md) |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W10 weak_spots](../W10_Advanced_Context_Provenance/notes/weak_spots.md), [W08 weak_spots](../W08_Validation_Batch_MultiPass/notes/weak_spots.md), [W05 weak_spots](../W05_Claude_Code_Config/notes/weak_spots.md), [W02 weak_spots](../W02_Multi_Agent_Orchestration/notes/weak_spots.md) |
+| 0:10–1:15 | Exercise | **Exercise 1 — Multi-Tool Agent with Escalation Logic** · Read [reference.md](reference.md) §2 (week mapping) · Work through [exercises/exercise_1_multi_tool_agent_with_escalation.py](exercises/exercise_1_multi_tool_agent_with_escalation.py) |
+| 1:15–2:10 | Exercise | **Exercise 2 — Claude Code Team Workflow Configuration** · Read [reference.md](reference.md) §3 · Work through [exercises/exercise_2_claude_code_team_workflow.md](exercises/exercise_2_claude_code_team_workflow.md) |
+| 2:10–2:30 | Operational | Read [operational_topics.md](operational_topics.md) end-to-end — prompt caching, extended thinking, model selection, cost economics. Jot 3-bullet recap + integration pain points → [notes/study_day.md](notes/study_day.md) |
 
 ## Practice Day (2.5 h)
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:50 | Exercise | **Exercise 3 — Structured Data Extraction Pipeline** · Read [reference.md](reference.md) §4 · Work through [exercises/exercise_3_structured_extraction_pipeline.py](exercises/exercise_3_structured_extraction_pipeline.py) |
-| 0:50–1:40 | Exercise | **Exercise 4 — Multi-Agent Research Pipeline** · Read [reference.md](reference.md) §5 · Work through [exercises/exercise_4_multi_agent_research_pipeline.py](exercises/exercise_4_multi_agent_research_pipeline.py) |
-| 1:40–2:20 | Exam | Start **Full Practice Exam 1** (50 Q, all 6 scenarios) — aim to finish; carry over if needed |
-| 2:20–2:30 | Weak spots | Identify 2 weakest domains → [notes/weak_spots.md](notes/weak_spots.md) (feeds W12) |
+| 0:00–0:45 | Exercise | **Exercise 3 — Structured Data Extraction Pipeline** · Read [reference.md](reference.md) §4 · Work through [exercises/exercise_3_structured_extraction_pipeline.py](exercises/exercise_3_structured_extraction_pipeline.py) |
+| 0:45–1:30 | Exercise | **Exercise 4 — Multi-Agent Research Pipeline** · Read [reference.md](reference.md) §5 · Work through [exercises/exercise_4_multi_agent_research_pipeline.py](exercises/exercise_4_multi_agent_research_pipeline.py) |
+| 1:30–1:50 | Scenario warmup | Skim both non-exercise scenario walkthroughs — [exercises/scenario_4_developer_productivity_walkthrough.md](exercises/scenario_4_developer_productivity_walkthrough.md) and [exercises/scenario_5_ci_cd_walkthrough.md](exercises/scenario_5_ci_cd_walkthrough.md). These fill the 2-of-6 scenario gap not covered by Exercises 1–4 |
+| 1:50–2:10 | Drill | **Adjacent-concept discrimination drill** — run [../W12_Final_Exam_Prep/exercises/adjacent_concepts_drill.md](../W12_Final_Exam_Prep/exercises/adjacent_concepts_drill.md) cold: cover the discriminator column, self-test 2–3 pairs per domain. Pairs you can't state the discriminator on → flashcard with `⭐` |
+| 2:10–2:25 | Exam | Start **Full Practice Exam 1** (50 Q, all 6 scenarios) — carry over to W12 if needed |
+| 2:25–2:30 | Weak spots | Identify 2 weakest domains → [notes/weak_spots.md](notes/weak_spots.md) (feeds W12) |
 
 **Deliverables:** Exercises 1–4 in `exercises/`, Practice Exam 1 score + wrong-answer review in `practice_test/full_exam_1.md`, 2 weakest domains identified.
 

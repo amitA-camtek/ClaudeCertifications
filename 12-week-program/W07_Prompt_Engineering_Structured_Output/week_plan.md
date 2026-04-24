@@ -13,7 +13,7 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Review W06 weak spots |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W06 weak_spots](../W06_Plan_Mode_Iteration_CICD/notes/weak_spots.md), [W04 weak_spots](../W04_Tool_Design_MCP/notes/weak_spots.md), [W01 weak_spots](../W01_Agentic_Loops/notes/weak_spots.md) |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §2 — categorical criteria (explicit thresholds, feature checks) vs vague wording (`important`, `confident`); false-positive-impact framing |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3 — few-shot = 2–4 examples on ambiguous edge cases (not canonical ones), show reasoning, placement in system prompt vs message pairs |
 | 1:40–2:20 | Build | Read [reference.md](reference.md) §4 — `tool_use` + `input_schema` + forced `tool_choice` for structured output; schemas fix **syntax**, not semantics — then follow [exercises/build.md](exercises/build.md) step by step |

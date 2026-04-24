@@ -13,7 +13,7 @@
 
 | Time | Block | Task |
 |---|---|---|
-| 0:00–0:10 | Warmup | Review W03 weak spots |
+| 0:00–0:10 | Warmup | Cold-recall drill per [../spaced_repetition_schedule.md](../spaced_repetition_schedule.md) — today: [W03 weak_spots](../W03_Hooks_Workflows_Sessions/notes/weak_spots.md), [W01 weak_spots](../W01_Agentic_Loops/notes/weak_spots.md) |
 | 0:10–0:55 | Theory | Read [reference.md](reference.md) §1–2 — descriptions are the selector; input/output formats, positive + negative boundaries; split vs consolidate for near-similar tools |
 | 0:55–1:40 | Theory | Read [reference.md](reference.md) §3 — structured errors (`isError`, `errorCategory`, `isRetryable`, `message`); retry branches on `isRetryable`, not string parsing |
 | 1:40–2:20 | Build | Read [reference.md](reference.md) §4–5 — 4–5 tools per agent max, scoped access per role, `tool_choice` modes — then follow [exercises/build.md](exercises/build.md) step by step to sketch the tool set |
