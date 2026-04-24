@@ -44,6 +44,7 @@ Exam target: **720 / 1000** across 5 domains, 6 scenarios.
 
 ## Cross-week references
 
+- [keyNotes.md](keyNotes.md) — the 10 levers that move pass probability from ~85% to ~95%. Read once at W01, re-read at W10.
 - [coverage_matrix.md](coverage_matrix.md) — every exam task statement mapped to the week/section that covers it. Use for spot-checks and targeted re-reads.
 - [spaced_repetition_schedule.md](spaced_repetition_schedule.md) — which prior weeks' `weak_spots.md` to revisit in each week's Warmup block (1 / 3 / 6 / 9-week expanding intervals).
 - [W11 operational_topics.md](W11_Integration_Hands_On/operational_topics.md) — cross-cutting topics: prompt caching, extended thinking, model selection, cost economics.
