@@ -3,6 +3,12 @@
 **Domain:** Exam Prep · 5.1–5.3
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Return `[]` (empty result set) on a tool timeout, or return a generic `"operation failed"` string on any error.
+**Correct:** Structured error envelope — `{isError: true, errorCategory: "timeout", isRetryable: true, message: "<user-friendly>"}` — so the caller can retry, escalate, or explain the real failure.
+**Why it's a trap:** The caller cannot distinguish "no matches" from "I failed". The agent confidently tells the user "no orders found" when actually the warehouse API was down. Silent failures mask outages and turn operational bugs into user-visible data lies. See [reference.md](reference.md) §11.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

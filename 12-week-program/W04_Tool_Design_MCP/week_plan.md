@@ -3,6 +3,12 @@
 **Domain:** Foundations · 2.1–2.5
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Terse tool descriptions "to save tokens"; one mega-tool with a `mode` enum input (`action="lookup" | "create" | "delete"`).
+**Correct:** Rich descriptions per tool — what it does, when to use, input format with examples, positive + negative boundaries, return shape. Split multi-purpose tools into separately-named tools with distinct descriptions.
+**Why it's a trap:** Descriptions are the model's *selector*. The model picks against names and descriptions, not enum values buried in inputs. Tokens spent on rich descriptions produce every correct tool pick for the life of the agent — this is the wrong place to economize. See [reference.md](reference.md) §9.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

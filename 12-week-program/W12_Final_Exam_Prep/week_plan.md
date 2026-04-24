@@ -4,6 +4,12 @@
 **Budget:** 2 days × 2.5 h = 5 h
 **Goal:** walk into exam day with ≥ 720/1000 readiness.
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Cram new content in the final days — read fresh reference material, attempt new exercises, or pick up a new topic "to close the gap".
+**Correct:** Only review previously-studied material: `notes/weak_spots.md` across W01–W11, the wrong-answer table in [reference.md](reference.md) §4, and [exercises/anti_patterns_master_list.md](exercises/anti_patterns_master_list.md) end-to-end. For each anti-pattern, generate the exam question that would make the distractor tempting — saying the trap out loud is the drill.
+**Why it's a trap:** New content this late doesn't consolidate; it displaces retrieval of already-mastered material and raises exam-day anxiety. The master list IS the distractor catalog — the exam tests the exact traps it documents. Reject-on-sight recognition beats fresh study.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

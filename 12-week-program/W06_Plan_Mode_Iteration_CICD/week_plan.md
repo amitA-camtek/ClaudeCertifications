@@ -3,6 +3,12 @@
 **Domain:** Applied Knowledge · 3.4–3.6
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Same Claude session generates **and** reviews code in CI (`--resume` the same context); regex-parse the natural-language `claude -p` output.
+**Correct:** Separate fresh sessions for generator and reviewer — artifacts-only, no `--resume`. Use `--output-format json --json-schema` for a stable, machine-parseable contract.
+**Why it's a trap:** Self-review retains reasoning bias: the reviewer already "knows" why each choice was made and will rationalize its own mistakes instead of catching them. Natural-language output phrasing drifts across model updates; regex that passes today fails silently next month. See [reference.md](reference.md) §6.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

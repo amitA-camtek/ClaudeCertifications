@@ -3,6 +3,12 @@
 **Domain:** Exam Prep · 5.4–5.6
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Silently pick "the most plausible" source when two sources conflict; trust model self-reported confidence (1–10) as the quality signal; report aggregate accuracy only.
+**Correct:** Preserve *both* findings with attribution and `publication_date`; note the conflict explicitly. For quality, use empirical field-level calibration from held-out data. Stratify accuracy by document type **and** field.
+**Why it's a trap:** Silently picking discards the disagreement signal — often the most important information in the synthesis. Self-reported confidence is badly miscalibrated, especially on hard cases (confidently wrong). Aggregates hide a 40%-accurate document type buried inside a 98%-accurate headline. See [reference.md](reference.md) §9.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

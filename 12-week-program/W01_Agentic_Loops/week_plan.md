@@ -3,6 +3,12 @@
 **Domain:** Foundations · 1.1
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Parsing `resp.content` text for "done" / "finished" to terminate the loop, or exiting after a tight iteration cap (3–5 turns).
+**Correct:** Terminate only on `stop_reason == "end_turn"`. Keep a high `safety_fuse` (25/50/100) as a crash guard, not a task-level cap.
+**Why it's a trap:** Text matching is probabilistic — model phrasing drifts across runs and versions. Tight caps truncate valid multi-step tasks (10+ turns is normal). The API already provides a deterministic termination signal; use it. See [reference.md](reference.md) §7.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

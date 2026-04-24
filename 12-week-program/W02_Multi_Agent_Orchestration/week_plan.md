@@ -3,6 +3,12 @@
 **Domain:** Foundations · 1.2–1.3
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Give every subagent every tool "for maximum flexibility", or let subagents share memory / see each other's context.
+**Correct:** Scope each subagent to ~4–5 role-relevant tools; isolate context per subagent; coordinator delegates via structured prompts and receives compact return values (hub-and-spoke).
+**Why it's a trap:** Tool-selection quality degrades past ~5–7 tools as near-similar descriptions blur. Shared memory re-creates single-agent problems (context bloat, poisoned trails from failed branches) at higher cost. Isolation is the *whole point* of the pattern. See [reference.md](reference.md) §9.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

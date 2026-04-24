@@ -3,6 +3,12 @@
 **Domain:** Exam Prep · All Domains
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** "Add it to the system prompt" as the fix for *any* compliance, correctness, or reliability problem — whether it's forcing tool choice, enforcing a policy, shaping output, or scoping a rule.
+**Correct:** Reach for the deterministic mechanism — `tool_choice` for forced calls, a `PreToolUse` hook for policy gates, `input_schema` for output shape, `allowedTools` / `paths:` / `.mcp.json` for scope, a separate reviewer session for independence.
+**Why it's a trap:** This is the single recurring theme across all 5 exam domains. Prompts are probabilistic; mechanisms are enforced by code. When two distractors differ on *prompt-vs-mechanism*, the mechanism answer is almost always correct. See [integration_notes.md](integration_notes.md) for cross-domain examples.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

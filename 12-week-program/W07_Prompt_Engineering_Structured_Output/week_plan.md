@@ -3,6 +3,12 @@
 **Domain:** Applied Knowledge · 4.1–4.3
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Ask for JSON in natural language ("output JSON with these fields: ..."); use `tool_choice: auto` for mandatory extraction.
+**Correct:** Declare a tool with `input_schema`, then force the call with `tool_choice: {"type": "tool", "name": "..."}`. Read the JSON off the `tool_use` block.
+**Why it's a trap:** NL JSON requests produce trailing commas, markdown fences, commentary around the JSON, unquoted keys, and shape drift across runs. `auto` lets the model skip the extraction entirely and reply in prose. Tool-use gives you SDK-guaranteed syntactic validity. See [reference.md](reference.md) §9.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

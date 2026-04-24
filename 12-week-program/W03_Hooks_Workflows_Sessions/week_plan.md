@@ -3,6 +3,12 @@
 **Domain:** Foundations · 1.4–1.7
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Put a policy rule ("NEVER refund over $500") in the system prompt; use **PostToolUse** to prevent a destructive action.
+**Correct:** **PreToolUse** hook that inspects `tool_input` in code and blocks the call before it runs (e.g. `amount_usd > 500`). PostToolUse is for shaping what the model sees next — redaction, normalization, logging — never for prevention.
+**Why it's a trap:** Prompts are probabilistic — the model mostly complies, then fails silently under injection or long conversations. PostToolUse fires *after* the side effect (refund issued, file deleted). The deterministic code gate is the mechanism; the prompt is hope. See [reference.md](reference.md) §11.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

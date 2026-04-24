@@ -3,6 +3,12 @@
 **Domain:** Applied Knowledge · 3.1–3.3
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Put every rule in root `CLAUDE.md`; or keep team-wide config in `~/.claude/CLAUDE.md` (user scope).
+**Correct:** Scope path-specific rules in `.claude/rules/*.md` with `paths:` frontmatter. Team config goes in `<repo>/CLAUDE.md` or `<repo>/.claude/CLAUDE.md` — committed to git so teammates stay in sync.
+**Why it's a trap:** Every line in root `CLAUDE.md` is paid for on every turn, diluting attention with irrelevant rules. User scope isn't shared — teammates drift out of sync and behavior becomes per-machine. Scope and commit. See [reference.md](reference.md) §9.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |

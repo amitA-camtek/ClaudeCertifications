@@ -3,6 +3,12 @@
 **Domain:** Applied Knowledge · 4.4–4.6
 **Budget:** 2 days × 2.5 h = 5 h
 
+## Anti-pattern to avoid vs correct
+
+**Avoid:** Use Message Batches for a blocking pre-merge check (because they're 50% cheaper); treat schema-validation success as "extraction is correct".
+**Correct:** Synchronous `claude -p` for blocking paths; reserve Batches for latency-tolerant bulk (overnight scoring of 10k docs). For correctness, pair schema validation (shape) with a second-pass semantic validator (meaning).
+**Why it's a trap:** Batches have up to a 24 h window with no SLA — a PR sitting in "checks pending" that long is unacceptable. And a schema guarantees **shape**, not **meaning**: the model can fill `vendor_name` with the customer, pick the wrong enum, or fabricate a plausible date. See [reference.md](reference.md) §8.
+
 ## Study Day (2.5 h)
 
 | Time | Block | Task |
